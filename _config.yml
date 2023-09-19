@@ -169,6 +169,8 @@ navbar:
     left: "#f78736" #left side 
     right: "#367df7"  #right side
     transparency: 35 #percent (10-99)
+  # Navbar shadow
+  shadow: true
   # Navbar links
   links:
     Home: 

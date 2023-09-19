@@ -1,3 +1,11 @@
+<% if (theme.navbar.shadow === false) { %>
+    <style>
+        .navbar-container {
+            box-shadow: none !important;
+        }
+    </style>
+<% } %>
+
 <header class="navbar-container">
     
     <div class="navbar-content<%- (theme.home_banner.enable === true && is_home() && !page.prev) ? ' has-home-banner' : '' %>">
