@@ -1,5 +1,6 @@
 $temp-title-fs = hexo-config('home_banner.text_style.title_size')
 $title-font-size = $temp-title-fs ? convert($temp-title-fs) : 2.8rem
+$title-font-weight = hexo-config('home_banner.text_style.font_weight')
 $temp-subtitle-fs = hexo-config('home_banner.text_style.subtitle_size')
 $subtitle-font-size = $temp-subtitle-fs ? convert($temp-subtitle-fs) : 1.4rem
 $temp-line-height = hexo-config('style.first_screen.line_height')
@@ -38,7 +39,7 @@ $home-banner-icon-size = 1.6rem
 
     .description
       width 100vw
-      font-weight 450
+      font-weight $title-font-weight
       font-size $title-font-size
       line-height $line-height
       text-align center
