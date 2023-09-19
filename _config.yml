@@ -109,6 +109,9 @@ home_banner:
   background_color: # Remove the background image to enable this
     light: "#fff" # light mode
     dark: "#000" # dark mode
+  # Home banner custom animation
+  animation: 
+    enable: false # Whether to enable, put your custom animation code in the file /layout/_partials/animation.ejs
   # Home banner title
   title: Theme Redefine
   # Home banner subtitle
