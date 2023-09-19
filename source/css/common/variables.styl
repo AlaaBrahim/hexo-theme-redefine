@@ -113,7 +113,7 @@ $nav-color-bg = linear-gradient(120deg, $nav-color-1 0%, $nav-color-2 100%)
 // ========================================================================================
 // light mode color
 // ========================================================================================
-$background-color = #fff
+$background-color = convert(hexo-config('home_banner.background_color.light'))
 $background-color-transparent = rgba(255, 255, 255, 0.6)
 $background-color-transparent-80 = rgba(255, 255, 255, 0.8)
 $background-color-transparent-40 = rgba(255, 255, 255, 0.4)
@@ -160,7 +160,7 @@ $home-banner-icons-container-background-color = rgba(255, 255, 255, 0.3)
 // dark mode color
 // ========================================================================================
 $dark-primary-color = $primary-color
-$dark-background-color = #202124
+$dark-background-color = convert(hexo-config('home_banner.background_color.dark'))
 $dark-background-color-transparent = rgba(32, 33, 36, 0.4)
 $dark-background-color-transparent-80 = rgba(32, 33, 36, 0.8)
 $dark-background-color-transparent-40 = rgba(32, 33, 36, 0.4)
