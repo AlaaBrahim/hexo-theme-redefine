@@ -111,7 +111,7 @@ home_banner:
     dark: "#000" # dark mode
   # Home banner custom animation
   animation: 
-    enable: false # Whether to enable, put your custom animation code in the file /layout/_partials/animation.ejs
+    enable: false # Whether to enable, put your custom animation code in the file /animation/animation.html and add skip_render: - "animation/**" to _config.yml
   # Home banner title
   title: Theme Redefine
   # Home banner subtitle
